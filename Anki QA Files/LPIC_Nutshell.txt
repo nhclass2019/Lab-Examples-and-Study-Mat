@@ -1,0 +1,98 @@
+What command could be used to display a list of usb devices?;lsusb -t
+Which USB host controllers support USB 1,1?;OHCI & UHCI
+What USB host controller supports USB 2.0?;EHCI
+What file is associated with the OHCI usb Host controller?;usb-ohci.o
+What file is associated with the UHCI usb Host controller?;uhci.o
+What file is associated with the EHCI usb Host controller?;ehci-hcd.o
+usbcore.o provides...?;all of the generic USB support for higher level drivers & USB hubs
+Two ways to check the status of modules in the linux kernel are?;lsmod & cat /proc/modules <br>*lsmod simly formats the information in a manner easier to read
+How can you view system interrupts from the shell?; cat /proc/interrupts
+What command can be used to view device with direct access to memory (without processor involvement)?; cat /proc/dma
+How can you view hardware I/O ports?; cat /proc/ioports
+How can you list kernel modules currently loaded?; cat /proc/modules <br>or<br>lsmod
+what commands can be used to view or list hardware information?;lsdev<br>or<br>lshw
+What command can return information on PCI buses and devices?; lspci
+To view verbose information on PCI buses and devices;lspci -v, -vv (more verbose), -vvv (maximum info)
+what command could be used to add, for example, support for the msdos filesystem?;insmod <br>*ie     insmod fat, insmod msdos
+What command is used to remove modules from the running kernel?;rmmod ________[name of module]<br>*must be root to use
+How do you display information about a module?;modinfo
+This command is used to insert modules but additionally has the capability to load prerequisite modules.;modprobe
+An exception to conventional PCI devices, PCI devices with hotplug support are almost exclusively....;....used in server systems
+What is sysfs ?; a RAM-based filesystem that provides a means to export kernel data structures, attributes and the linkages between them to the userspace
+How can sysfs be accessed?; mount -t sysfs sysfs /sys
+What application uses sysfs to implement a message bus daemon?;D-Bus
+True or False: Modern linux kernels are modular (modules of code traditionally compiled into the kernel are loaded as needed); True
+To what file are parameters inserted that are meant to be sent to a kernel module?; /etc/modules.conf<br> *formerly<br> /etc/conf.modules
+Where are module options specified?;within modules.conf
+Where are Kernel options passed?;on the Kernel command line
+What command is used to examine kernel boot-time messages?;dmesg
+True or False: dmesg may not contain all boot-time messages; True
+Besides dmesg what is another source of boot-time messages?;/var/log/messages
+What process is responsible for placing the system in the default run level?;init
+What command, although not generally preferred, can change the system run level to run level 1?;init<br>ie #init 1<br> (pg 25 LPI Certification In A Nutshell, 3rd Ed)
+On Red Hat linux what is the system initialization script?;rc.sysinst<br>[located at] /etc/rc.sysinit
+On Debian based systems what is the system initialization script?;rcS<br>[located at] /etc/init.d/rcS
+System services are also known as...;daemons<br>*which typically run in the background
+What directory of scripts can be used to manage running daemons by allowing you to standardize the commands that are used to control them?;/etc/init.d
+What is Runlevel 0?;Shutdown-A special transitional state used by administrators to shut down the system quickly.<br><br>-Shut down system.<br>-a server in this default runlevel whould shut down once the kernel launches the init process *IE machine won't come up
+What is Runlevel 1, Runlevel s, Runlevel S?;Single User mode-*They are all the same; different systems may use either number letter<br><br>Single User Mode<br>-system services network-interface, web-servers, and file-sharing are not started in Single User Mode/Maintenance Mode
+What is Runlevel 2?;---->On Debian systems:<br>-default run level<br><br>---->On RedHat:<br>-multiuser mode, minus NFS filesharing & X Window
+What is Runlevel 3?;---->On Debian systems:<br>-not typically used<br><br>---->On RedHat:<br>-default multi-user mode, minus X Window
+What is Runlevel 4?;*Typically unused (RHEL & Debian)
+What is Runlevel 5?;---->On Debian systems:<br>-not typically used<br><br>---->On RedHat:<br>full multi-user mode with X Window/GUI<br>-X 11 (remote SSH session capability)<br>*Should X11 not function correctly, avoid runlevel 5
+What is Runlevel 6?;Reboot-A special transitional state used by admins<br>*should not be default runlevel. A system with this set as the default runlevel would continously reboot
+True or False: Runlevels themselves are completely configurable (customizeable).;True
+True or False: GRUB allows you to pass arbitrary parameters to a kernel at boot time.;True
+Upon booting, the init process initiates what script first in RHEL and Debian systems (two answers/files)?;RHEL: /etc/rc.sysinit<br>/etc/init.d/rcS<br>*the rcS script runs several smaller scripts in two directories; accomplishes the same job
+What is /etc/rc.local ?;the script called after all other init scripts/daemons are started<br>*contains local customizations that are NOT lost in an upgrade<br><br>**rc.local may not exist on all distributions
+On RHEL, what script is used to change between run levels?;/etc/rc
+Where are scripts to startup/shutdown all services on the system?;/etc/init.d
+What two arguments do all service scripts in /etc/init.d accept?; start<br> stop
+What arguments beside start & stop might a service script in /etc/init.d might be accepted?; restart<br> status<br> reload
+While all system initialization scripts are located in /etc/init.d the init Process does not call these scripts directly; it uses ________ located in directories ________.;soft links to the scripts .....  /etc/rc0.d - /etc/rc6.d [all 7 runlevel directories]
+A file S12syslog is located in the active runlevel directory; what can be known about this file; -the syslog service is to be started [S]<br><br>-it is the 12th service started when the machine enters this runlevel
+Where is the default run level set?;/etc/inittab <br>*in a file such as id:N[runlevel]:initdefault:
+What two runlevels can not be set to the default runlevel?;0 or 6
+What command can be used to see the current runlevel?;runlevel <br>*will return the current and previous runlevel (or N if it has just finished booting)
+What command may be used to change the runlevel of a machine?;init [runlevel]
+What command uses a link to change the runlevel?;telinit [runlevel]
+By default the shutdown command first changes the runlevel to...;single user mode
+shutdown -f now    does what?;fast boot<br>*skips filesystem checks on next boot
+shutdown -j now    does what?;halts system after shutdown
+shutdown -k now    does what?;ONLY sends warning messages for shutdown
+shutdown -r now    does what?;reboot after shutdown
+shutdown -F now    does what?;force file check on next boot
+On a system with limited or legacy storage size (1G), what number and types of partitions could you use to accomodate this storage limitation?;3 partitions:<br>/boot<br>/ (...root)<br>swap
+What partition in a linux filesystem will most likely be the largest partition?;/home<br>*used for user directories and data
+To access a filesystem/partition, what must first be done?;mount the drive/partition<br>*add them to a filesystem table
+Where do you mount a filesystem?;mount point<br>*directory
+This contains information such as type, size, and status of a filesystem?;superblock<br>*linux equivalent to Microsoft's File Allocation Table (FAT)
+What is the MBR?;Master Boot Record<br>-512bytes in size, located in first sector of HDD<br><br>*contains info about partitions and loads operating system
+What is needed to boot from a USB device?;-atleast one partition on the USB with bootable flag set<br><br>an MBR must write to the primary partition of the USB device<br>-image must be 'burned' to the device (Ubuntu Live USB creator)
+What are some advantages of having a USB bootable drive?;-portable image of OS, personal files/applications<br>-can be used to boot machines that have an issue booting by themselves
+What should dictate the optimal disk layout of a machine's OS install?;the role of the system
+In a system backup that uses disk partitions as the basic unit of organization, where will the machine get the list of file systems available to backup?;/etc/fstab
+What command could be used to backup a hard drive and how would you do this?;dd  -> command<br>*<br>dd if=/dev/hdc of=/dev/hde
+What command could be used to backup the partition table of the system?;dd<br>*<br>sfdisk -d /dev/hda > partitionbackup.txt [example output file name...]
+As a general rule, subject to change in technology capability & personal preference, how may you calculate an acceptable Swap partition size?;double the amount of RAM
+For older devices, /boot should be what size?;below cylinder 1024
+the /var partition should hold enough space for...;big enough to handle logs, spools, mail temporarily until deleted
+Regarding the /tmp partition, what considerations should guide the size of the partition?;-highly dependent on the demands of applications used on the machine<br><br>-the size should be large enough for temporary files of all users
+The /usr partition should be large enough to...;...accomodate kernel building.
+The /home partition is for _____ and should be...;user files, downloads, projects<br><br>-a seperate partition intended to keep data serperate from software, system updates.<br><br>*if practicle, place /home on a disk array
+Swap size is atleast ______  the size of the memory of the system; twice as big as
+The two steps after BIOS is initialized are...;run boot loader from designated media<br>-launch the linux kernel, processes
+True or False: all linux systems a boot loader?;True
+What are two common linux boot loaders?;GRUB & LILO
+Boot loaders such as LILO have two parts, _______ & _______;the boot loader [which resides in the MBR and loads the second, larger part of the boot record]<br><br>Lilo command or map installer [reads configuration files to find kernel images, video information, default boot disk]
+When viewing a list of kernels/operating systems from the LILO prompt, how is the default kernel indicated?;an [*] asterisk next to the name
+
+
+
+
+
+
+ 
+
+LPIC Nutshell;pg 38, ch 5
+

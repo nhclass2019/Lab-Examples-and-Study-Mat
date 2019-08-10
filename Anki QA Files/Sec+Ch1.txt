@@ -1,0 +1,21 @@
+________ is a technique used to exploit a vulnerability in any application or physical computer system without the authorization to do so.; Attack
+What are five basic types of attack?; Physical security attaks<br>Software based attacks<br>social engineering attacks<br>web application attacks<br>network attacks
+These are countermeasures put in place to avoid, mitigate, or counteract security risks due to risks or attacks.; controls
+What are three types of controls?; Prevention controls<br>Detection controls<br>Correction controls
+What is the cia-triad?;The group of security principles including confidentiality, integrity and availability and the idea that the compromise of one of these principles threatens the security of the entire organization
+What is non-repudiation?;...the goal of ensuring that the party that sent a transmission or created data remains associated with that data and cannot deny sending or creating that data.
+________ is the process by which a claim is made about the nature of a particular entity;identification
+What is authentication?;...the method of validating a particular entity's or individual's identity and unique credentials
+As opposed to three common authentication factors, what are modern authentication factors?; something you are<br>something you have<br>something you know<br>somewhere you are/aren't<br>something you do
+_______ is the process of determining and assigning privleges to various resources, objects, or data; access control
+What is authorization?; the process of determining what rights and privileges a particular entity has
+A level of minimal access to facilities, computing hardware, software, and information for personnel/entities to perform the duties required of them....;Least Privledge, Principle of
+What is privledge bracketing?;a type of access/privledge that is granted, then revoked after a specific time frame or activity is finished.
+How would privledge management be described?;authentication & authorization mechanisms to provide centralized or decentralized administration of user/group access control
+What everyday mechanism is an implementation of privledge management?;Single Sign On (SSO) in which a single authorization grants multiple site access/authentication
+What are the three most fundamental goals of computer security?;Confidentiality<br>Integrity<br>availability
+A biometric hand scanner is hused, identity verified, access verified and granted. Which security controls are being used?;Authentication<br>Authorization<br>Access Control
+Personnel review logs files with identities of persons who've entered/exited a building. Which type of security is this?;Auditing
+From a central location an admin grants rights to resources to users & tracks users' access to resources. Which type of security control is this?;Privledge Management
+A+;L1TopicC pg 14
+

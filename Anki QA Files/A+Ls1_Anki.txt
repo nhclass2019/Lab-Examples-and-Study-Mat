@@ -1,0 +1,118 @@
+System Memory/RAM is normally packaged as _______.;Dual Inline Memory Module (DIMM)
+Printer Toner may NOT be....;May NOT be thrown away! Printer Toner is considered hazardous waste and must be disposed of properly.
+What is a network?;Two or more computer systems linked together by some forms of transmission medium that enables them to share information.
+The technology/networking industry has developed terms that broadly define the scope of different types of network such as....;LAN, WAN, MAN
+What is the original ethernet standard?; 10BASE, 10Mbps of the IEEE 802.3 working group
+What are standards of ethernet other than 10 BASE?; 100 Base/100Mbps (Fast Ethernet), 1000BASE/1000Mbps (Gigabit Ethernet), 10GBASE/10000Mbps (10Gigabit)
+What is the IEEE standard that is concerned with wireless networking?;IEEE 802.11
+A business oriented network possibly using a centralized server in addition to client devices and printers, but often using a single internet appliance to provide connectivity is....; SOHO (small office home office) LAN
+A modern 'Internet Appliance' (Home Modem) provides what vaious functions?;Access Point, Switch, Modem, Router
+A+;pg301, CH 6
+What is a SME?; Small and Medium Sized Enterprise (SME) network - supports tens of users, structured cabling
+What is a large network with hundreds or thousands of servers and clients, while requiring enterprise class networking equipment; Enterprise LAN
+What is ESD?;Electro Static Discharge (ESD)<br>-a high voltage stored in an insulated body that travels when a path of electrical conductivity allows electronsto rush from a statically charged body to another with an unqueal charge
+An ESD discharge of what level can be felt?;2500V (2.5kV)
+An ESD discharge of what level can produce a visible spark?;20,000V (20kV)
+In dry environmental conditions, walking over untreated carpet can generate voltage as high as....;35,000V (35kV)
+Electronic circuit boards & associated components, such as a transistor, can be damaged with voltage as low as ______ but most circuit boards have ______ _______ to improve this tolerance.; 100V<br>protection circuits
+What are examples of ESD preventative measures?; Self Grounding, ESD Wrist Strap, ESD Mat (grounded), ESD protective bag (pink, silver)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*******+Lesson/Chapter 1;Topic B******
+A system case is also referred to as a________;chassis
+A system case typically provided external access, on the system case, to accessory components such as...; Optical Disk Drive<br>3.5" Disk Drive<br>USB slots<br>Status Indicator lights
+As oppossed to a 'Tower' type of PC, what other forms are there?; Small Form Factor (SFF)<br>All in one Units
+If an point of access to internal components is available on a system case, but is not being used, what should it have?;blanking plate
+Components that are easily user replaceable/upgradeable are referred to as....:Feild Replaceable Units (FRU's)
+What guidelines should be considered prior to disassembling a PC?;Back up data<br>Create a clean, clear space<br>Gather all tools and equipment<br>Ensure all devices are powered off and disconnected from the respective power sources<br>Take ESD precautions
+This component is a circuit board which houses the processor, chipset, memory, and expansion slots;Motherboard<br>*aka mobo, system board, main board
+What are typical motherboard connectors?;CPU socket<br>memory slots<br>Disk Drive connectors<br>i/o ports (USB, video, audio)<br>Adapter card slots
+Due to the rapid pace of developing technology, what limitations to do motherboards have?;-they support a limited number of CPU models
+What controllers are part of the computer's chipset?;System memory controller<br>I/O Controller<br>integrated sound, video, network interfaces
+In order to avoid a bottlenecking of data flow within the CPU, what features are now included?;subsytems that require a lot of bandwidth, such as the memory controller and graphics controller, are incorporated on the same chip or 'die'
+What does CMOS stand for? What is this type of device used for?;Complementary Metal-Oxide Semiconductor<br>-used for motherboards, the CMOS Ram module for initial system configuration
+How do modern motherboards store configuration data?;-typically in NVRAM (Non Volatile Random Access Memory)
+True or False: CMOS batteries are still used today on motherboards.;True<br>-they are still used for the Real Time Clock (RTC)
+What type of bus connects core components to the motherboard?;local, internal bus
+An expansion bus provides ....;the ability to attach additional components to the computer such as SCSI devices, USB Cards, Firewire devices
+How do smaller form factor or slimline computers handle space restrictions with respect to buses?;riser cards<br>-essentially bus extension cards that exend at right angles to safe vertical space usage above, below the motherboard.<br><br>*Additionally low profile adapter cards save space
+What is a daughter board?;-general computing term for any board that plugs into another circuit board
+This synchronized the operationof all parts of the PC and provides the basic timing signal for the CPU and, through the use of multipliers, other various bus speeds
+What is the PCI bus?;Peripheral Component Interconnect (PCI) bus<br>-introduced in 1994 with the Pentium processor, various versions and the standard are available at pcisig.org
+This capability of buses allows bus devices to transfer data to and from memory without requiring the CPU's involvment;bus mastering
+What specifications are there regarding PCI?;32bit parallel bus<br>33.3MHz bus speed<br>transfer rate up to 133MBps<br>32 bits / 8 [for bytes] = 4 bytes<br>4 bytes * 33.3 MHz = 133.2 MBps
+With the addition of PCI 2.1, what differing electrical characteristic was allowed for?;3.3 volt signaling, and dual voltage signaling PCI cards (3.3volts and 5volts)
+A PCI card with the key at pins 50-51 uses what signaling?;5 Volts
+A PCI card with the key at pins 12-13 uses what signaling?;3.3 Volts
+A PCI card slot that allows for 60 additional pins (60 pins longer) is what type of PCI expansion bus?; 64 bit
+Concerning Power consumption, what capability does a PCI expansion bus have?; 25 Watts
+The PCI architecture was replaced by _____ in 2004?;PCI Express (PCIe)
+What primary enhancements did PCIe bring to the bus architecture?;point to point serial connections between devices (any device could connect directly to any other device)<br>connections between devices are made through a switch that routes data<br>QoS can be qualified between data traffic flow (ie allowing real-time video to prioritize over non time critical data exchanges)
+What color on i/o ports is represented by parallel ports?;fuscia (pink)
+What color on i/o ports is represented by serial ports?;teal (light green)
+What color on i/o ports is represented by mouse (PS2) ports?;green
+What color on i/o ports is represented by keyboard (PS2) ports?;purple
+What were some formerly typical (past common types) of storage bus standards?;Parallel ATA (PATA) [aka Integrated Drive Electronics IDE]<br>Small Computer System Interface (SCSI)
+What are jumpers used for?;connecting or cross connecting pins on a motherboard (or circuit board) for various configurations
+What are the ATX mother board dimensions?;12in X 9.6in, 305mmX244mm<br>*developed by Intel in 1995 (7 expansion slots)
+What are the Micro-ATX mother board dimensions?;9.6in X 9.6in, 244mmX244mm<br>4 expansion slots
+What are the Mini-ITX mother board dimensions?;6.7in X 6.7in, 170mmX170mm<br>1 expansion slot
+What are some form factors of computers smaller than Mini-ITX (6.7in square)?;nano ITX, Pico ITX, mobile ITX
+Point to Point connections between PCIe devices are called what?;links
+A link consists of how many lanes?;1 or more lanes
+The lane of a PCIe link consists of how many wires?; two wire pairs (4 wires total) for the use of low voltage differential signaling
+Most graphics cards use how many lanes?;16 lanes
+PCIe 2.1 increased power consumption capability to what?; 150 Watts<br>*WITH an optional 8pin Auxiliary power connector capable of delivering an additional 150W
+PCIe 3 included data transfer rates of approximately...;1GBps
+PCIe 4 included data transfer rates of approximately...;2GBps
+PCIe 5 included data transfer rates of approximately...;4GBps (slightly less)
+What storage technology replaced IDE/EIDE & ATA drives?;SATA drives (for personal/consumer devices)<br>*SCSI technology is still used in commercial environments
+How many pins are on a SATA pin/connector?;Seven (7) pins
+How many SATA connectors are typically available on a motherboard?;4
+How many header pins are on a motherboard for a USB connection?;Nine (9) header pins<br>*The ninth pin is to orient the cabling
+The motherboard power connector typically has how many pins?; Twenty-four (24) pins
+How many pins and connectors are typically used for a motherboard fan?;*No standard pinout*<br>3 or 4 Pin Molex KK connector<br>4 Pin Molex KK [that connects directly to Power Supply]<br?>*two connectors if the firmware monitors fan feedback/performance data
+**********Topic C; A+Ch/Les 1**********
+What is an interface?;the point at which two devices connect and communicate with each other
+This is a hardware interface that you can use to connect devices to a computer....;Port
+This is a physical access point that enables a computer to communicate with internal/external devices
+This mechanism/feature is meant to greatly reduce the possibility of connecting a cable-connector incorrectly (upside down or backwards); key<br>*as in keyed connector
+A standard USB Controller can allow the connection of how many USB devices?;127
+USB 2.0 specifies what data rate amongst how many devices?;480Mbps<br>*This data rate is shared amongst all devices on the same host controller
+USB 3.0's SuperSpeed mode has a data rate of...;5Gbps<*also full duples [simultaneously read/write]
+USB 3.1's SuperSpeed+ mode has a data rate of...;10Gbps
+USB 3.2's mode is expected to have a data rate of...;20Gbps<br>*this will be only over USB-C cabling/connectors
+True or False: USB 3.x controllers are impacted by the operation of legacy USB devices (ie 2.0 and below); False
+USB 2.0 operates under what specifications?; 5 meters max length, .5amps, 5volts
+USB 3.0 operates under what specifications?; 3 meters max length, 4.5 watts/7.5 watts in charging mode
+Which USB 2.0 type is largely not used now?; USB 2.0 Type B Mini, 5-pin<br>*used on early digital cameras
+Which USB 2.0 type is frequently found on small tablets or cellular phones?; USB 2.0 Type B Mircro, 5-pin<br>flat angled connector with 5 wires/contacts
+Which USB 3.0 type is physically compatible with USB 1.1 & USB 2.0?USB 3.0 Type A
+Which USB 3.0 connector type will be used as the hardware specification?; USB 3.1 Type C<br?>(*reversible on the ends [pc-device, device-pc], and on orientation [upside-down])
+The Thunderbolt interface is identical (the same) as what other interface?; DisplayPort
+Thunderbolt v2 supports data speeds up to...;20Gbps
+Thunderbolt v3 interface is physically identical to what other interface?;USB-C
+True or False: A USB-C device will function normally when plugged into a Thunderbolt 3 interface?; True
+True or False: A Thunderbolt 3 device will function normally when plugged into a USB-C interface?; False
+Under what conditions will Thunderbolt 3 support up to 40Gbps data transfer rates?; -with the use of a short, high-quality cable; up to .5m/1.6ft in length
+What is Apple's current interface for phones, tablets, and small devices?; Lightning port/connector
+The RS-232 standard in known by what name?; Serial
+RS-232 supports data rates up to....;115Kbps
+The RS-232 represents what formal name?; Recommended Standard #232
+The RS-232 standard calls for what hardware?; 25 pin connector/interface
+The RS-232 standard is implemented by PC manufacturers as...;9 pin connectors/interface
+Windows refers to an RS-232 interface as...;COM Port
+A+;pg 41/51

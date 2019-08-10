@@ -1,0 +1,67 @@
+What is System Memory?;the main storage area for programs and data when the computer is running<br><br>*volatile memory: Random Access Memory (RAM)<br>**volatile due to requirement of constant power
+What is Dynamic RAM?;inexpensive, high density binary storage consisting of a capacitor (for storage of the value 0 or 1) and a transistor to read the value
+What is SDRAM?;variant of RAM from the 1990's which was Synchronized to the system clock with a 64bit memory bus
+SDRAM is identified by an alpha-numeric nomenclature associated with....;clock speed [PC100 - 100Mhz, PC133 - 133, etc..]
+DDR Ram is identified by an alpha-numeric nomenclature associated with....;Maximum Theoretical bandwidth [ie PC1600 - [8bytes x 200Mts], PC2100]
+True or False:DDR2 & DDR3 can are both manufactured with 240 pins and are compatible with each other.;False, DDR2 & DDR4 can NOT be used together
+DDR has how many pins and uses what voltage?;184<br>&<br>2.5v - 2.6v
+DDR2 has how many pins and uses what voltage?;240<br>&<br>1.8v - 1.9v
+DDR3 has how many pins and uses what voltage?;240<br>&<br>1.35v - 1.5v
+DDR4 has how many pins and uses what voltage?;288<br>&<br>1.2v
+SODIMM DDR has how many pins?;200
+SODIMM DDR2 has how many pins?;200
+SODIMM DDR3 has how many pins?;204
+SODIMM DDR4 has how many pins?;260
+Single Channel memory indicates what characteristic about a system?; a single, 64bit bus between memory and the cpu
+Dual Channel memory [controller] indicates what characteristic about a system?; there are two (logical) 64 bit pathways between each of the two memory channels and the cpu<br>*or 128 bits can be accessesed per 'transaction'
+To enable dual channel memory usage, how must the memory DIMM's be installed?;-with each DIMM in socket one of each channel (usually channel pairs are marked)
+What two conditions may cause a dual channel motherboard to operate in single channel memory mode?-adding an odd number of DIMM's<br><br>-adding mismatched DIMM's
+What is parity checking?;the examination of the parity bit (ninth bit after the 8 bits that make a byte) to ensure that the value is the same as before
+Most desktop PC's have what type of memory?;non parity
+Workstations, servers and high reliability machines will use what type of memory?;Error Checking and Correcting (ECC) memory
+Beyond the checking a correction of single bit errors, what will ECC do with additional errors?;detect and generate an error message, halt system
+ECC has what type of memory bus?;72 bit bus
+What else may ECC require to be used?;-enabling is system setup<br><br>-mother board support *Mandatory
+What is one way of improving a PC's performance with original parts?;*if supported, enabling dual channel memory
+True of False: Different speeds of memory can be mixed in PC.; True (but not preferred; not optimal performance)
+If an ECC memory DIMM is used what must be also used?;-only other memory DIMM's that are ECC
+
+
+
+Topic:B
+Non-volatile storage devices are sometimes known as what?;mass storage devices
+What is the primary method of persistent storage?;Hard Disk Drive (HDD)
+What are the four main parts of a convential SATA HDD?;-platter<br>-spindle<br>-read/write heads<br>-actuator
+What is the low level formating of a HDD called?;drive geometry
+What is a typical drive geometry?;circular tracks on both sides of platter, 512 byte sectors
+HDD's are known for their fragile nature; at what height do heads rest above the platter?;less than one millionth of an inch
+What are three standard HDD sizes?;2.5"<br>3.5"<br>1.8" *not common
+What is the external transfer rate of an HDD?;how fast (in Mbps) data can be transferred to the CPU across the memory
+What do HDD's, specifically high performance ones, have that assist with higher transfer rates?;cache memory
+What is the Host Bus Adapter?;a connection point for internal storage<br>*aka drive controllers
+What is the most common main bus standard for internal storage today?;SATA
+What were two other main bus standards for internal storage?;PATA<br>SCSI
+SATA has a cable length maximum of what?;39" (1m)
+What connection type does SATA use?; compact 7 pin connector<br>*Only one device per connection
+True or False: A SATA drive is hot-swappable.;True
+A highly dependable machine or server might use what type of hard drive in leu of SATA?; Serial Attached SCSI [Small Computer System Interface]
+The original SATA standard supports what transfer speed?;1.5Gbps
+SATA r2 supported what transfer speed?;3Gbps
+SATA r3 supported what transfer speed?;6Gbps
+What are three advantages SCSI devices have presently;-large pool of supported devices [+16,000]<br>-p2p link (not shared bandwidth)<br>-higher bandwidth (12Gbps)
+What are some basic advantages of SSD's?;-more efficient, less prone to failure<br>-better read/seek times<br>*Main disadvantage: cost
+What restriction will be encountered if a platter hard drive is directly replaced with an SSD?;6Gbps transfer rate<br>-due to the use of SATA Advanced Host Controller Interface (AHCI)
+How can the transfer bottle neck of SSD's be corrected?;use of a PCIe connected SSD<br>*uses the:<br>Non-Volatile Memory Host Controller Interface Specification (NVMHCI)
+What sort of adapter is used to connect SSD's to PCIe interfaces?;M.2 adapter
+Why would you need to consider which M.2 adapter to use for a given system?;space restrictions where adapter is to be installed<br>*M.2 comes in 42, 60, 80, & 110mm lengths
+What are some disadvantages of solid state storage technology?;large data transfers may occur at decreased read speeds<br>-flash chips (portions of the SSD) are susceptible to individual failure<BR>*may require use of Wear Leveling Routines to even out usage of disk
+What device is a compromise between solid state and platter drives?;hybrid drives<br>*SSD portion functions as a large cache, uses platter drive less frequently
+Each PATA channel supports how many devices?;2
+A PATA drive/cable has atleast how many pins?;Drive: always 40<br>-cable has 40, sometimes 80 for UDMA4/better transfer modes
+Although the PATA cable are keyed, how else can you tell which pins are which?;wire 1 is colored red on the ribbon cable
+What low & high speeds could be expected of a PATA drive?;33MBps - UDMA 2<br>133MBps - UDMA 6
+What mechanism in early PC's restricted drive storage space?;BIOS
+With Logical Bit Addressing handled within the OS, what drive storage limitation is there?; 48 bit LBA supports up to 144 Petabytes *theoretically
+SCSI-1 supported what bandwdith?;5MBps
+Ultra3 SCSI supported what bandwidth?;320MBps
+A+Lesson3;pg 126

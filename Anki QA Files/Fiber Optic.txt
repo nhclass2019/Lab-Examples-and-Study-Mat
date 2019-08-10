@@ -1,0 +1,56 @@
+Fiber optic;studydeck
+light is electromagnetic energy with a _____ frequency and a ______ wavelength compared to radios; High Frequecy<br>short wavelength
+What type of light is used in fiber optic transmissions?;infrared (ir)
+What are the four items needed for a fiber optic system to work?;Transmitter, fiber optic cable, receiver, and connector
+1 mW is the same as what in dBm?;0 dBm (absolute power)
+How is the power measured in fiber optics?;dBm
+What fiber optic wavelength has the lowest loss?;1550 nm wavelength
+What wavelength windows are used most for fiber optic communications?;850 nm, 1300 nm, and 1550 nm wavelengths
+What year was fiber optic cable first used in commercial telephone systems in the U.S.?;1977
+What light source is used for singlemode fiber?;Laser diode
+What two light sources are used with multimode fiber?;LED and VCSEL
+All wavelengths of light travel at the same speed. (true or false: why);False different wavelengths of light travel at different velocities within a medium where each wavelength as a unique refractive index
+Which type of fiber has the larger core size: singlemode or multimode?;Multimode
+What is OSHA responsible for?;OSHA is responsible for enforcing it's standards on regulated entities
+What are two ways to reduce modal dispersion?;Use a smaller core<br>use graded-index fiber
+What happens to the wavelength in fiber when the number of modes increase?;The wavelength gets shorter with more modes
+Where does Fresnel reflection occur?;Air gas and mechanical interconnections
+What is it called when light bends when moving between water and air?;Refraction
+What is the refractive index of the core and cladding of fiber?;-Core: 1.457 and 1.451<br>-cladding: 1.42
+Singlemode fiber systems usually operate at what three wavelengths?;1310 nm, 1550 nm, and 1625 nm wavelengths
+What two multimode wavelengths are the most commonly used?;850 nm and 1300 nm wavelengths
+How is attenuation measured?;Decibels (dB)
+What is a "mode" in fiber?;A path of light
+What will happen to the tensile strength of a fiber cable if it is bent more than recommended?;The tensile strength decreases
+OM3 and OM4 multimode fibers are known as what type of fiber?;Laser optimized multimode fiber
+What are the two most common core and cladding sizes in multimode fiber?;62.5/125 um (US)<br> 50/125 um (EU)
+What is the buffer size for a fiber used in tight buffered cables?;900 um
+What jacket color does singlemode fiber have?;Yellow
+What are the 12 fiber color codes in order?;Blue, Orange, Green, Brown, Slate, White, Red, Black, Yellow, Violet, Rose, Aqua
+OM1 and OM2 are known as what types of fibers?;29/98
+Why does graded-index fiber use numerous concentric layers of glass?;Reduce modal dispersion
+What is the fiber's cladding bonded to during the assembly process?;Ferrule connector
+A fiber optic cable that is "fire retardant and low smoke" is called what according to the NEC?;Plenum
+What type of fiber has an aqua jacket?;Laser optimized multimode fiber
+What does the gel in a loose tube fiber optic cable protect the fiber from if the jacket fails?;Protects the fiber from moisture in outdoor environments
+What is OFNR?;Optical Fiber Non-conductive Riser
+The NEC considers cables that contain no conductive members as what type of cable?;Non-conductive cable
+What type of cable has optical fibers and current-carrying electrical conductors in the same jacket?;Composite cable
+What is the name of the tight-buffered cable used for indoor applications?;Distribution cable
+What is the last thing you do before you test a connection?;Clean it
+What material is used for precision fiber connector ferrules?;Ceramic material
+What pattern of polishing is used to finish a fiber connector end-face with the hand polish technique?;Figure eight
+An MPO connector is recognized by the ANSITIA-568-C.3 standard. (true or false);True
+An SC connector is recognized by the ANSITIA-568-C.3 standard. (true or false);true
+What safety forms must be available when using any type of chemical?;MSDS sheets
+An SC connector is recognized by the ANSITIA-568-C.3 standard. (true or false);true
+How do you dispose of wast fiber ends?;A sealable container marked for fiber waste
+What type of loss results from mated fiber ends not being perpendicular to the fiber's axis due to a poor cleave angle?;Extrinsic loss
+A 1.25 mm ferrule is used with what type of connector?;A small form factor connector
+The NEC is updated every _____ years.;3 years
+What is required at termination points of a cable containing metallic members?;Bounding to grounding
+What kind of cable kit branches the fiber's contained in a loose tube fiber optic cable onto 900 um outdoor diameter protective tubes?;Fan out kits
+What are most singlemode fiber ends terminated to?;Pigtails
+Fresnel reflection can be reduced by using what type of material?;Fresnel reflection can be reduced by using what type of material?
+How should the scoring blade be held, in relation to the fiber, to achieve a good cleave?;Perpendicular to the fiber
+

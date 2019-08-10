@@ -1,0 +1,19 @@
+Network switches and NIC's must use, at least, these two ethernet parameters....;-signaling speed (ie 100Mbs, 10Gps)<br>-duplex mode: half duplex or full duplex
+Where can network ethernet parameters be configured in Microsoft Windows?; Device Manager, Wireless Network Adapter properties
+Where are QoS parameters usually set?; within the network switch<br>*some QoS settings may also be configured on PC network adapter properties
+True or False: The BIOS/UEFI system setup program can be used to check if the onboard NIC is enabled; True
+Making a network operate in ______ mode may impact the performance of the whole network.; compatibility mode (allowing use of 802.11n, g, b, etc..)
+What is WoWLAN?;Wake on Wireless LAN
+On Microsoft Windows 7/8, where is an overview of network availability and configuration available?; Network and Sharing Center
+On Microsoft Windows 7, where do you access the adapter properties?; Change adapter settings
+On Microsoft Windows 8, where do you access the adapter properties?; Manage network connections 
+A+;pg 379
+Wired networks use what kind of cable connector (typically) for ethernet?;RJ-45
+An alternative to copper wired networks would be...;fiber optic cable<br>wireless [802.11g/ac/etc]<br>*in exotic scenarios possibly coaxial cable
+What is signaling speed?;the speed at which network (devices) work<br>*ie 10Mbps, 100Mbps, 1Gps, 10Gps
+Half duplex allows...;allows for only transmission or recieving of data<br>-one at a time
+Full duplex allows....;allows for xmt and rcv simultaneously
+Where can signaling speed and duplex mode settings be found?;Device Manager>Network Adapters>***network connections>Properties>Advanced
+QoS describes...;using a network protocol to prioritize certain types of traffic over others<br>*ie time sensitive traffic like voice over file transfers (not time sensitive)
+Where are QoS parameters configured?;usually on managed switches
+How would you enable the capability to provide priority to certain types of traffic?;network adapter>properties><br>*enable 802.1p or QoS packet tagging

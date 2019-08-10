@@ -1,0 +1,100 @@
+System Memory/RAM is normally packaged as _______.;Dual Inline Memory Module (DIMM)
+Printer Toner may NOT be....;May NOT be thrown away! Printer Toner is considered hazardous waste and must be disposed of properly.
+What is a network?;Two or more computer systems linked together by some forms of transmission medium that enables them to share information.
+The technology/networking industry has developed terms that broadly define the scope of different types of network such as....;LAN, WAN, MAN
+What is the original ethernet standard?; 10BASE, 10Mbps of the IEEE 802.3 working group
+What are standards of ethernet other than 10 BASE?; 100 Base/100Mbps (Fast Ethernet), 1000BASE/1000Mbps (Gigabit Ethernet), 10GBASE/10000Mbps (10Gigabit)
+What is the IEEE standard that is concerned with wireless networking?;IEEE 802.11
+A business oriented network possibly using a centralized server in addition to client devices and printers, but often using a single internet appliance to provide connectivity is....; SOHO (small office home office) LAN
+A modern 'Internet Appliance' (Home Modem) provides what vaious functions?;Access Point, Switch, Modem, Router
+A+;pg301, CH 6
+What is a SME?; Small and Medium Sized Enterprise (SME) network - supports tens of users, structured cabling
+What is a large network with hundreds or thousands of servers and clients, while requiring enterprise class networking equipment; Enterprise LAN
+Most cabled LAN's use what type of transmission media?; copper wire twisted pair (or unsheilded twisted pair [UTP])
+What frequency, network speed, and max distance characteristics does cat 5 have?; 100MHz, 100Mps, 100m /328 ft
+What frequency, network speed, and max distance characteristics does cat 5e have?; 100MHz, 1Gbps, 100m /328 ft
+What frequency, network speed, and max distance characteristics does cat 6 have?; 250MHz, 1Gbps, 100m /328ft
+What frequency, network speed, and max distance characteristics does cat 6A have?; 500MHz, 10 Gbps, 100m /328ft
+Twisted Pair cabling that includes a foil surrounding pairs or all pairs is called what?;Sheilded Twisted Pair (STP)
+What is F/UTP?; twisted pair cabling including a foil screen around all pairs
+What is U/FTP?; twisted pair cabling with a foil screen around EACH pair of wires
+What type/grade of cabling is used in spaces or voids designed to carry Heating, Ventilation, and Air Conditioning systems?; Plenum cable (areas of use sometimes known as 'Plenum spaces')
+What characteristics do Plenum cables have?;do emit large amouns of smoke when burning, are self extinguishing, uses PVC or FEP (Fluourinated Ethylene Polymer) for jacketing/insulation
+What mark does Plenum data cable have?;CMP/MMP
+General purpose cables have what mark?;CMG/MMG or CM/MP
+Name the five parts of a frame; Pre-amble <br>Destination Address<br>Source Address<br>Payload<br>Error checking
+An early type of device used to implement th ethernet cabling desing, referred to as a stor topology and ensures that all devices receive signals on the network; a hub
+A device used to overcome the distance limitations imposed by network cabling; repeater
+A device that divides a local network into two or more segments, where hosts on one segment are only able to communicate with hosts in other segments using this same device; bridge
+This device has largely replaced devices such as bridges and hubs; switch
+When compared the legacy device, the bridge, what is unique about the ports of a switch?; Each port is a seperate collision domain that establishes a point to point link known as a virtual circuit
+The concept/implimentation of having multiple collision domains on each port and linking through virtual circuits is known as....; microsegmentation
+What does IEEE 802.3-2012 describe?; Power over Ethernet (PoE)
+What power draw does IEEE 802.3af support?; 15.4W, but at the cabling maximum distance (for PoE) of 100ft, it is approximately 13W
+What power draw does IEEE 802.3at support?; 25W, allows for a broader range of device (ie pan-tilt cameras, etc)
+This type of network connection uses higher frequencies available in a copper line with filters, advanced modulation, echo cancelling techniques to enable high bandwidth, full duplex transmissions; DSL (Digital Subscriber Line)
+What port/protocol does FTP (data) use?; Port 20<br>TCP
+What port/protocol does FTP (control) use?; Port 21<br>TCP
+What port/protocol does SSH use?; Port 22<br>TCP
+What port/protocol does Telnet use?; Port 23<br>TCP
+What port/protocol does SMTP use?; Port 25<br>TCP
+What port/protocol does DNS use?; Port 53<br>TCP/UDP
+What port/protocol does BOOTP (DHCP server) use?; Port 67<br>UDP
+What port/protocol does BOOTP (DHCP client) use?; Port 68<br>UDP
+What port/protocol does HTTP use?; Port 80<br>TCP
+What port/protocol does POP3 use?; Port 110<br>TCP
+What port/protocol does NTP use?; Port 123<br>UDP
+What port/protocol does NETBIOS over TCP/IP use?; Port 137-139<br>UDP/TCP
+What port/protocol does IMAP use?; Port 143<br>TCP
+What port/protocol does SNMP use?; Port 161<br>UDP
+What port/protocol does SNMP-trap use?; Port 162<br>UDP
+What port/protocol does LDAP use?; Port 389<br>TCP
+What port/protocol does SLP (service location protocol) use?; Port 427<br>TCP
+What port/protocol does HTTPS use?; Port 443<br>https
+What port/protocol does SMB use?; Port 445<br>TCP (*although it runs on top of and dependent on TCP)
+What port/protocol does AFP (apple filing protocol) use?; Port 548<br>TCP
+What port/protocol does RDP (remote desktop protocol) use?; Port 3389<br>TCP
+What is the ephemeral port range and what organization defines this?;49152-65535<br>IANA
+What system is reponsible for the resolution of names to IP addresses?;Domain Name System (DNS)
+How does DNS annotate a 'root' server?; by the placement of a [period] '.' prior to the name
+How many root level servers are there?; 13 (A-M)
+What are examples of typical Top Level Domains (TLD)?; .com, .org, .net, .uk, .ca, .de, .edu
+What organization operates DNS?;ICANN (of icann.org)
+This reflects the heirarchy, from most specific (the host) to least specific (top domain, then root)...;Full Qualified Domain Name (FQDN)
+Domain identifies....;a company, organization, or indvidual. It must be unique & registered
+What host name is a common alias to indicate that the resource is a web server?; www
+What network protocol does DNS use to listen for record requests?; UDP
+Name the two types of DNS servers.; Authoritative Name Server<br>Recursive Resolver
+What protocol is the basis of the world wide web?; http<br>Hyper Text Transfer Protocol
+When a client attempts to connect to a web server to access content, what does the client use?; Uniform Resource Locater (URL)
+What is the latest version of TLS?; TLS 1.2, ratified as a standard by the Internet Engineering Task Force (IETF)
+What port/protocol does SMTPS use?; Port 587 (SMTP Secure)
+What port/protocol does IMAPS use?; Port 993 (IMAP Secure)
+What port/protocol does POP3S use?; Port 995 (POP3 Secure)
+What application protocol supports printer and file sharing?; Server Message Block (SMB)<br>current version: SMB2
+What application implements SMB, allowing unix systems to share and access resources on Windows based sytems?;Samba
+SMB is commonly referred to as?;Common Internet File System (CIFS)
+On Mac OS, what protocol performs a similar function to SMB?;Apple Filing Protocol (AFP)
+What protocol, as one of the earliest used on networks, allows for uploading and downloading of files?;FTP<br>*alternatively FTPS or SFTP (secure encrypted versions of the FTP protocol)
+The windows domain uses what authentication protocol?;Kerberos
+What is DHCP?; Dynamic Host Configuration Protocol (DHCP)<br>-typically a server/service that assigns network addresses automatically when clients initially connect to the network
+This X.500 standard provides a series of records such as CN, OU, DC, and A records for network clients to access network resources;Lightweight Directory Access Protocol (LDAP)
+What protocol and ports does LDAP use?;port 389<br>TCP & UDP
+As opposed to TCP/IP, the earliest Windows networks used what networking software?;Network Basic Input/Output System (NetBIOS)
+What term is used to describe a unique identifier for a network resource within an X.500 directory?;Distinguished Name
+After being reworked, what was the new version of NetBIOS?;NetBIOS over TCP/IP (NetBT)
+NetBT is only required when...;a network supports pre-Windows 2000 legacy systems/applications
+What is a framework for management and monitoring network devices?;Simple Network Management Protocol (SNMP)
+SNMP relies on what database?; Management Information Base (MIB)
+SNMP queries use what port and protocol?; UDP Port 161
+SNMP traps are communicated using what port and protocol?;UDP Port 162
+This security principle calls for policies such as workstation hardening to ensurethey cannon be compromised and used to attack the network from within.;defense in depth
+What is an Endpoint Management Server?;Machine/service tha identifies endpoint devices & ensuring they're correctly configured
+What is one Microsoft product that functions as an Endpoint Management Server?;System Center and Configuration Manager (SCCM) for Windows
+What Linux/UNIX system functions as a client-server for centralized collection of events [in an open format standard] from multiple sources;syslog
+What is a closed network?;a network where all elements/variables are known to the vendor & there is no connectivity to other/wider networks
+The underlying technology for Intrusion Detection Systems can be found it what two applications?;Snort<br>Suricata
+An analysis studying the behavioral traits of network traffic/applications...;Heuristic
+An intrusion prevention system does what?; all the same functions of in IDS in addition to real time traffic blocking (drop packets, reset connections)
+A+;pg 367
+

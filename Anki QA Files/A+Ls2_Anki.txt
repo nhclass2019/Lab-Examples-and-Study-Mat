@@ -1,0 +1,62 @@
+These are the most common standard display type for PC systems and laptops; liquid crystal displays (LCD)
+What is a TFT?; the underlying display technology of LCD panel.<br>-liquid crystal elements and transistors placed on a 'Thin Film'...when varying voltages alter the amount of light that is allowed passage, variations in color are produced
+What are the two types of TFT?; Twisted Nematic(TN)<br>&<br>In-Plane Switching(IPS)
+In cheaper LCD displays, what is the source of backlight?;Cold Cathode Flourescent (CCFL) bulb
+What types of LED backlighting are there for TFT/LCD displays?; 1. Edge lit<br>2. Backlit<br>3. Color temperature
+OLED displays have what advantages?; -doesn't require backlight (the LED's themselves produce light)<br>-can be made from plastic as opposed to glass allowing for curved, shaped displays
+This is a large format display suitable for use in a presentation or a meeting....;video projector
+What are typical projector imaging technologies?;Cathode Ray Tube<br>LCD<br>Digital Light Processing (DLP)<br>Laser Projector (single laser, three lasers...)
+This device is intended to replace sight and sound in the real world with computer generated sight and sound...; Virtual Reality (VR) headset
+What do 'tethered' VR headsets require?;-hdmi port<br>various USB ports
+What is resolution?;-the number of pixels, aka picture elements, used to create the image
+What is color depth?;-the total number of colors supported by the display device<br>*8bit = 256 colors<br>-modern displays have 18, 24bit color [16,777,216 colors]
+What resolution do analog display devices support?;*CRT & similar technology display a range of resolutions
+What resolution do digital display devices support?;native resolution<br>*resolutions below native resolution are impacted by degraded image quality (fuzzy)
+Screen size describes what dimension?;distance of the screen measured diagonally
+What is Aspect Ratio?;Width divided by the Height of the display [Ratio of Width to Height]<br>ie 4:3, 16:9, etc..
+What is Refresh Rate?;The speed at which the display 'redraws' the image, measured in Hertz (times per second)
+What is Frame Rate?;The number of times the image in a video stream changes per second<br>*refresh rate must be synced to frame rate
+Standard and high-end model TFT/LCD's have what typical refresh rates respectively?; 60Hz [standard] & 120-240Hz [high-end/more expensive models]
+What is Response rate?;the time taken for a pixel to change color measured in milliseconds (hq=8ms, low quality=longer, 20ms or more will cause ghosting/trailing images)
+What is Luminance?;perceived brightness of a display measured in candelas per sq meter (cd/m2 [squared])
+What is Contrast Ratio?;a measure of luminace of white compared to black<br>-high ratios, 600:1 or more, indicate darker/truer blacks & more vibrant/brilliant color
+What is Illuminance?;light projecting power rated in lumens (ANSI Lumens)
+This device or screen feature prevents anyone but the user from reading the screen...;privacy filter
+What is the resolution of VGA?;640x480, 16 colors(4bit)
+What is the resolution of WXGA?;1280x800, 16:10
+What is the resolution of SXGA?;1280x1024, 5:4 Aspect
+What is the resolution of HD?;1366x768, 16:9
+What is the resolution of WSXGA?;1440x900, 16:10
+What is the resolution of Full HD?;1920x1080, 16:9
+What is the resolution of QHD (Quad HD)?;2560x1440, 16:9
+What is the resolution of 4k UHD(Ultra HD)?;38400x2160, 16:9
+What is the formal nomenclature for VGA?;HD15/DE-15
+How many pins are on a VGA connector/port?; 15
+Is VGA digital or analog?;analog
+What specifications does DVI Single link support?;Bandwidth - 3.7Gbps<br>1920x1200 (full HD) resolution<br>60fps (frames per second)
+What specifications does DVI Dual link support?;Bandwidth - 7.4Gbps<br>HDTV<br>85 fps
+What does HDMI stand for?; High Definition Multimedia Interface (HDMI)
+Generally, what features does HDMI support?;video & audio<br>remote control (CEC)<br>digital content protection (HDCP)
+What is HDMI version 1.4 (and above) have that is considered significant?; Ultra HD resolution data transfer (4096-2160 resolution)<br>*additionally HDMIv1.4 supports a 100Mbps network connection too
+What bandwidth does HDMI v2.1 support?;48Gbps<br>*120Hz
+How many pins are in an HDMI type A interface?;19 pins
+How many pins are in an HDMI type B interface (Dual link)?;29 pins
+What type is HDMI type C?;Mini HDMI
+What type is HDMI type D?;Micro HDMI
+What are HDMI cable ratings?;Standard (Category 1)<br>High Speed (Category 2)<br>Premium High Speed (18Gbps)<br>Ultra High Speed (48Gbps)
+True or False: The HDMI standard is an open interface.; False<br>-HDMI is a proprietary standard<br>*requires a royalty to use in a product
+What is DisplayPort?;a royalty free standard implementation of HDMI technology, with a 5 sided 20 pin connector<br>*created by Video Electronics Standards Association (VESA)
+DisplayPort supports what cable media/material?;copper & fiber-optic
+Although computers normally support HDMI and DisplayPort, what other interface is rapidly being adopted?;USB-C<br>*it can carry DisplayPort & HDMI signals along with Thunderbolt 3 signals
+What is the term used to describe the native graphics component of a PC?;onboard [graphics ] adapter
+When greater graphics complexity is needed, what is used in a PC?;add-on [graphics] card
+What three main features are graphics (more complex cards) judged on?;Clock Speed<br>Shader Units<br>Frame Rate (min 25fps)
+Dual NVIDIA cards are utilized using...?;Scalable Link Interface (SLI) [board]
+Dual AMD/ATI cards are utilized using...;Crossfire
+Graphics cards are compliant with which two common graphics API's?;DirectX<br>OpenGL
+Where are three places that display device settings can be changed?;Windows Control Panel-Windows settings<br>*Device Manufacturer software utility<br>On Screen Display menus (accessed through exterior monitor buttons)
+What three display options are available for dual displays/monitors?;Duplicate these Displays<br>Extend these displays<br>*Show [display] Only on 1 [or 2]
+A+;pg 88
+Once you have examined the entire PC, peripherals and settings, what else could you do to understand why a display has no image?;try monitor with another PC
+If video playback is not working on a PC, what could be changed or turned off to resolve this?;hardware acceleration
+If a CRT monitor has a flickering image, what are two possible reasons for this?;-resolution too high<br>-refresh rate too slow

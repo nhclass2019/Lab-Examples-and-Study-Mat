@@ -1,0 +1,52 @@
+Define Information Security.; the protection of available information or information resources from unauthorized access, attack, theft, or data damage.
+What are the three goals of the practice of information security?; Prevention, Detection, Recovery
+A concept that indicates exposure to the chance of damage or loss, likelihood of a hazard or dangerous threat occuring; risk
+True or False: cabling, fiber optics and even radio waves  are part of the OSI Physical layer 1; True
+What command can be used in MS Windows to view IP configuration information?; ipconfig /all (or simply ipconfig)
+What is MAC-48 ?; MAC address (Media Access Control Address)
+What is EUI-48 ?; MAC address (Media Access Control Address)
+What type of device might allow you to view graphic representations of electrical signals on network wire?; oscilloscope
+What is a PDU?; Protocol Data Unit - unit of data specified by a protocol at each layer of the OSI seven-layer model
+What is a frame?; the PDU (protocol data unit) for layer 2
+In a simplified generic ethernet frame, what are the first two parts of the frame?; 1st - Recipient MAC address <br> 2nd - Sender recipient MAC address
+Following the data feild of a frame, what part utilizes a binary math function?; the FCS (Frame Check Sequence) uses a binary math process called (CRC) cyclic redundancy check
+The NIC orchestrates what two aspects?; 1. Establishes the Logical Link Control (LLC)<br> 2. Inserts the NIC's MAC address in outgoing frames
+What layers of the OSI model do NIC's operate at?; Layer 1 (Physical) & Layer 2 (Data)
+MAC addresses are also known as....;physical addresses
+What is the primary logical addressing protocol for TCP/IP?; Internet Protocol (IP)
+What is an IP address?;-Unique logical identifier address<br><br>*uses dotted octet/decimal system with four 8-bit numbers seperated by periods; 32bit address
+What device connects multiple networks together through the use of IP addresses?;router
+As a packet travels through different routers, what part is continually changed?;The frame in which the packet resides (the packet remains unchanged)
+Net+; pg 90
+The transport protocol breaks data into pieces called...;segments (have a sequence number)<br>or<br>datagrams (NO sequence #)
+What does the recieving end of a network determine from the sequence number?;total number of segments & how to reassemble segments
+This part of the OSI model ensures that different machines are ready and able to handle each other's requests (data exchange)...;Session
+On Microsoft Windows & Linux, what command returns all of the sessions (listening & non-listening) that are running on the system?;netstat -a<br>*netstat on linux is being replaced with ss command
+What is the Application layer?;the code built into all operating systems that enables network-aware applications, which use an Application Programming Interface (API) tool
+What does the Presentation layer do?;translates data from lower levels into a format usable by the Application layer (and back, App Layer -> lower layers)
+What does the Session layer?;establishes and controls data communiction between applications on different devices<br>-regulates which device is sending & how much
+What does the Transport Layer do?;Performs the actual establishment, maintenance & termination of the connection
+What does the Network Layer do?;provides/adds the logical addressing for traffic (IPv4, IPv6)
+What does the Data Link Layer do?;provides/adds MAC addresses, structures data into a format standard for the medium of the connection (ethernet, fibre optic frame, etc) <br>-DLCI (data link connection identifier) numbers are used on this level as well
+What does the Physical Layer do?;transmits & regulates data in the form of electrical, fiber optic, rf, (transmission medium)
+Repeaters and hubs function at what level but are generally classified in what other level?;function: Layer 2<br>classified: Layer 1
+The term encapsulation describes what?;-the entire process of preparing data to go onto a network including application, presentation, session, transport, network and data link with each layer adding more information to more efficiently direct traffic
+What is the unit of data specified by a protocol at each layer of the OSI model?; PDU
+What is a PDU?;unit of data specified by a protocol at each layer of the OSI model
+What is the PDU for Layer 2?; a frame
+A basic, generic ethernet Frame would contain what pieces?;Recipient MAC<br>Sender MAC<br>Type<br>Data<br>FCS
+The frame check sequence (FCS) uses what method to verify the integrity of the Data?;cyclic redundancy check (CRC) - a type of binary math
+Wired networks typically use what frame size?;1500bytes
+Compared to a modern switch, older device hubs did what with incoming network traffic?;hubs sent all incoming frames to every device<br><br>*only the device with the correct NIC would actually process the frame, others would just drop the frame
+Net+;Pg 64
+
+
+
+
+
+
+
+
+
+
+
